@@ -1,0 +1,155 @@
+.todo_list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 900;
+	font-size: 50px;
+	box-shadow: 0 0 120px 0 red;
+	color: rgb(255, 0, 0);
+}
+
+.parent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	margin-top: 20px;
+
+	:hover {
+		background: #170808;
+		color: white;
+	}
+
+	input {
+		width: 200px;
+		height: 40px;
+		border-radius: 10px;
+		border: none;
+		font-weight: 900;
+	}
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	gap: 20px;
+
+	:hover {
+		background: #170808;
+		color: white;
+	}
+
+  .delete_all:hover {
+    background: red;
+  }
+
+	button {
+		width: 100px;
+		height: 40px;
+		border-radius: 10px;
+		border: none;
+		font-weight: 900;
+	}
+}
+
+.dad {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+	margin-top: 40px;
+
+	:hover {
+		background: #190202;
+	}
+
+	.papa {
+		box-sizing: border-box;
+		padding: 30px;
+		border: 1px solid white;
+		border-radius: 10px;
+		border: none;
+	}
+
+	img {
+		margin-top: 10px;
+		width: 100%;
+		max-width: 250px;
+		height: auto;
+		border-radius: 50px;
+		filter: drop-shadow(10px 10px 40px purple);
+	}
+}
+
+.h1_p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+}
+
+.button_2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	gap: 20px;
+
+	button {
+		width: 100px;
+		height: 30px;
+		border-radius: 10px;
+		border: none;
+	}
+
+	:hover {
+		background: red;
+	}
+}
+
+.edit_bt:hover {
+	background: green;
+}
+
+.innputs {
+	input {
+		width: 200px;
+		height: 40px;
+		border-radius: 10px;
+		border: none;
+		font-weight: 900;
+	}
+
+	:hover {
+		background: white;
+		gap: 10px;
+	}
+}
+
+.parent_second {
+
+  
+	button {
+		width: 100px;
+		height: 30px;
+		border-radius: 10px;
+		border: none;
+	}
+
+  
+}
+
+.buttonn {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+
+  :hover {
+    background: green;
+  }
+}
+
+
+
